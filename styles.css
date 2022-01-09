@@ -1,0 +1,111 @@
+html button {
+  border-radius: 6px;
+  padding: 6px 20px;
+  border: 2px solid black;
+}
+
+html a {
+  text-decoration: none;
+}
+
+html ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 24px 24px;
+}
+
+nav > a {
+  text-transform: uppercase;
+  font-size: medium;
+  color: darkblue;
+}
+
+nav ul {
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  color: black;
+  padding: 10px;
+}
+
+nav button {
+  background-color: darkblue;
+  color: white;
+}
+
+.jumbotron {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+}
+
+.basic-hobby-info {
+  text-align: center;
+}
+
+.card {
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+}
+
+.card button {
+  background-color: transparent;
+  border-color: transparent;
+  color: darkblue;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.tips-and-tricks button {
+  background-color: darkblue;
+  color: white;
+}
+
+.tips-and-tricks .labels {
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.related-hobbies button {
+  background-color: transparent;
+  border-color: transparent;
+  color: darkblue;
+  font-weight: 600;
+}
+
+footer {
+  background-color: gray;
+  font-weight: 600;
+  color: black;
+}
+
+footer .social-media-icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  background-color: black;
+}
