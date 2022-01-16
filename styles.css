@@ -16,6 +16,13 @@ html a:hover {
 
 html ul {
   list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+html ul li a {
+  color: black;
+  padding: 10px;
 }
 
 nav {
@@ -29,12 +36,12 @@ nav > a {
   text-transform: uppercase;
   font-size: medium;
   color: darkblue;
+  font-weight: 700;
 }
 
 nav ul {
   margin: 0 auto;
   list-style: none;
-  display: flex;
 }
 
 nav ul li a {
@@ -45,6 +52,18 @@ nav ul li a {
 nav button {
   background-color: darkblue;
   color: white;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  padding: 12px 24px 12px 24px;
+}
+
+.subheader > a {
+  font-weight: 700;
 }
 
 .jumbotron {
